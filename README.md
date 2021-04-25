@@ -1,10 +1,10 @@
 # joplin-update-frontmatter
 Add YAML FrontMatter block to all notes in Joplin
 
-When Joplin exports files as MD (for use in Obsidian) it does not include Tags
-Obsidian stores Tags in a block at the front of the MD files called FrontMatter (https://help.obsidian.md/Advanced+topics/YAML+front+matter)
-This script is designed to create a YAML FrontMatter block, within each Joplin note, so that on export Obsidian notes will have Tags
-Additional fields can be added to the FrontMatter, but Obsidian only recognizes "aliases", "tags", and "cssclass"
+When Joplin exports files as MD (for use in Obsidian) it does not include Tags. 
+Obsidian stores Tags in a block at the front of the MD files called FrontMatter (https://help.obsidian.md/Advanced+topics/YAML+front+matter). 
+This script is designed to create a YAML FrontMatter block, within each Joplin note, so that on export Obsidian notes will have Tags. 
+Additional fields can be added to the FrontMatter, but Obsidian only recognizes "aliases", "tags", and "cssclass". 
 
 ## Joplin API Documentation (https://joplinapp.org/api/references/rest_api/):
 curl http://localhost:41184/notes?token=YOURBIGTOKEN
