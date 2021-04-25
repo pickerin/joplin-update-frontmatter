@@ -14,9 +14,11 @@ curl "http://localhost:41184/notes/NOTEID/?fields=body,created_time,user_created
 curl "http://localhost:41184/notes/NOTEID/tags?token=YOURBIGTOKEN"
 
 Program creates YAML Front Matter in the following format:
-```---
+```
+---
 joplin-id: 039c4d1ad9c4403baad10acda1b48a90
 created-at: 2012-11-10T09:25:49-0800
 modified-at: 2012-11-10T09:29:35-0800
 tags: [Note, Multi-Word-Tag, lower-case-tag]
----```
+---
+```
