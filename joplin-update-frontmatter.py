@@ -135,5 +135,3 @@ for note in note_ids:
           # Only update if the new body is not empty (just a safeguard)
           requests.put('{}/{}?token={}'.format(NOTES_ENDPOINT, note[0], TOKEN),
                        data='{{ "body" : {} }}'.format(json.dumps(new_body)))
-
-
